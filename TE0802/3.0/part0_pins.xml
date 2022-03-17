@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?> 
+<!-- ##################################################################### -->
+<!-- ##TE File Version:1.0-->
+<!-- ##TE Last Modification:2018.12.04-->
+<!-- ##################################################################### -->
+<!-- ## replace part_name with correct FPGA PART from board.xml-->
+<part_info part_name="xczu2cg-sbva484-1-e">
+  <pins>
+  <!--insert ip pin settings and locations here, see ug895 or other board part files-->
+  <pin index="0" name ="btns_5bits_tri_i_0" iostandard="LVCMOS18" loc="U2"/>
+  <pin index="1" name ="btns_5bits_tri_i_1" iostandard="LVCMOS18" loc="U1"/>
+  <pin index="2" name ="btns_5bits_tri_i_2" iostandard="LVCMOS18" loc="T2"/>
+  <pin index="3" name ="btns_5bits_tri_i_3" iostandard="LVCMOS18" loc="R1"/>
+  <pin index="4" name ="btns_5bits_tri_i_4" iostandard="LVCMOS18" loc="T1"/>
+  <pin index="5" name ="leds_8bits_tri_o_0" iostandard="LVCMOS18" loc="P1"/>
+  <pin index="6" name ="leds_8bits_tri_o_1" iostandard="LVCMOS18" loc="N2"/>
+  <pin index="7" name ="leds_8bits_tri_o_2" iostandard="LVCMOS18" loc="M2"/>
+  <pin index="8" name ="leds_8bits_tri_o_3" iostandard="LVCMOS18" loc="L2"/>
+  <pin index="9" name ="leds_8bits_tri_o_4" iostandard="LVCMOS18" loc="J1"/>
+  <pin index="10" name ="leds_8bits_tri_o_5" iostandard="LVCMOS18" loc="H2"/>
+  <pin index="11" name ="leds_8bits_tri_o_6" iostandard="LVCMOS18" loc="L4"/>
+  <pin index="12" name ="leds_8bits_tri_o_7" iostandard="LVCMOS18" loc="L3"/>
+  <pin index="13" name ="sws_8bits_tri_i_0" iostandard="LVCMOS18" loc="P3"/>
+  <pin index="14" name ="sws_8bits_tri_i_1" iostandard="LVCMOS18" loc="P2"/>
+  <pin index="15" name ="sws_8bits_tri_i_2" iostandard="LVCMOS18" loc="M1"/>
+  <pin index="16" name ="sws_8bits_tri_i_3" iostandard="LVCMOS18" loc="L1"/>
+  <pin index="17" name ="sws_8bits_tri_i_4" iostandard="LVCMOS18" loc="K1"/>
+  <pin index="18" name ="sws_8bits_tri_i_5" iostandard="LVCMOS18" loc="J2"/>
+  <pin index="19" name ="sws_8bits_tri_i_6" iostandard="LVCMOS18" loc="M4"/>
+  <pin index="20" name ="sws_8bits_tri_i_7" iostandard="LVCMOS18" loc="M5"/>
+  <pin index="21" name ="emio_uart1_txd_0" iostandard="LVCMOS33" loc="F7"/>
+  <pin index="22" name ="emio_uart1_rxd_0" iostandard="LVCMOS33" loc="E6"/>
+  </pins>
+</part_info>
